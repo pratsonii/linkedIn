@@ -12,11 +12,11 @@ import { UserContentComponent } from "./coponents/profile/user-content-menu/user
 import { AboutComponent } from "./coponents/profile/user-content-menu/user-secondary-info/about/about.component";
 import { EndoresmentComponent } from "./coponents/profile/user-content-menu/user-secondary-info/endoresment/endoresment.component";
 import { UserSecondaryInfoComponent } from "./coponents/profile/user-content-menu/user-secondary-info/user-secondary-info.component";
-import { UserDashboardComponent } from "./coponents/profile/user-dashboard/user-dashboard.component";
+import { UserDashboardComponent } from "./coponents/profile/sidebar-dashboard/user-dashboard.component";
 import { UserInfoComponent } from "./coponents/profile/user-primary-info/user-info.component";
-import { VisitorsComponent } from "./coponents/profile/visitors/visitors.component";
-import { PrimaryButtonDirective } from './global/directives/primary-button.directive';
-import { OutlinedButtonDirective } from './global/directives/outlined-button.directive';
+import { VisitorsComponent } from "./coponents/profile/sidebar-visitors/visitors.component";
+import { PrimaryButtonDirective } from "./global/directives/primary-button.directive";
+import { OutlinedButtonDirective } from "./global/directives/outlined-button.directive";
 
 @NgModule({
   declarations: [
