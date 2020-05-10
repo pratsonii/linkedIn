@@ -1,0 +1,44 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem 0;
+
+  .endoresment-card {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 4px;
+    margin-right: 1rem;
+    padding: 1rem;
+
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .thumbnails {
+      margin-top: 0.5rem;
+      display: flex;
+
+      svg:not(:first-child),
+      span {
+        margin-left: -6px;
+        z-index: 5;
+      }
+
+      .count {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        color: white;
+        background-color: #0275B1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+
+a {
+  text-decoration: none;
+}
