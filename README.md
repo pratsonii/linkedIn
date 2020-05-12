@@ -1,4 +1,4 @@
-# LinkedIn Landing Page [Demo](https://eloquent-wright-205d06.netlify.app/)
+# LinkedIn Landing Page [Demo](https://linkedin-pratiksonii.netlify.app/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
